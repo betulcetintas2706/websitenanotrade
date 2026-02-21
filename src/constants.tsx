@@ -3,9 +3,9 @@ import { ArchitectureBlock, ComparisonItem, Metric, TeamMember } from './types';
 /* ===========================
    TEAM IMAGES (from src/assets/team/)
    =========================== */
-import sehreenImg from './assets/team/sehreen.png';
-import seeronImg from './assets/team/seeron.png';
-import betulImg from './assets/team/betul.png';
+import sehreenImg from '@/assets/team/sehreen.png';
+import seeronImg from '@/assets/team/seeron.png';
+import betulImg from '@/assets/team/betul.png';
 
 export const ARCHITECTURE_BLOCKS: ArchitectureBlock[] = [
   {
