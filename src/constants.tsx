@@ -1,15 +1,12 @@
 import { ArchitectureBlock, ComparisonItem, Metric, TeamMember } from './types';
 
 /* ===========================
-   TEAM IMAGES (FROM src/assets/team/)
+   TEAM IMAGES (from src/assets/team/)
    =========================== */
 import sehreenImg from './assets/team/sehreen.png';
 import seeronImg from './assets/team/seeron.png';
 import betulImg from './assets/team/betul.png';
 
-/* ===========================
-   ARCHITECTURE BLOCKS
-   =========================== */
 export const ARCHITECTURE_BLOCKS: ArchitectureBlock[] = [
   {
     id: 'matching-engine',
@@ -41,18 +38,12 @@ export const ARCHITECTURE_BLOCKS: ArchitectureBlock[] = [
   },
 ];
 
-/* ===========================
-   COMPARISON DATA
-   =========================== */
 export const COMPARISON_DATA: ComparisonItem[] = [
   { name: 'Software (CPU)', latency: 50, power: 80, cost: 'High OpEx', visual: 'OS Scheduling, Cache Jitter' },
   { name: 'FPGA', latency: 5, power: 15, cost: '$50,000+', visual: 'Expensive, High Power' },
   { name: 'NanoTrade ASIC', latency: 0.05, power: 0.008, cost: '$500 / unit', visual: 'Deterministic, Efficient' },
 ];
 
-/* ===========================
-   KEY METRICS
-   =========================== */
 export const METRICS: Metric[] = [
   { label: 'Orders / Second', value: '10M+', subtext: 'Throughput', color: 'purple' },
   { label: 'Matching Latency', value: '<100ns', subtext: 'Deterministic', color: 'purple' },
@@ -60,9 +51,6 @@ export const METRICS: Metric[] = [
   { label: 'Active Power', value: '8mW', subtext: 'Ultra Efficient', color: 'orange' },
 ];
 
-/* ===========================
-   ENGINEERING TEAM
-   =========================== */
 export const TEAM: TeamMember[] = [
   {
     name: 'Sehreen Basara',
