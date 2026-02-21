@@ -175,10 +175,6 @@ const App: React.FC = () => {
               </button>
             ))}
           </div>
-
-          <button className="hidden md:flex bg-white text-black px-6 py-3 rounded-2xl text-[10px] font-black uppercase tracking-widest hover:bg-purple-500 hover:text-white transition-all shadow-xl active:scale-95">
-            Whitepaper
-          </button>
         </div>
       </nav>
 
