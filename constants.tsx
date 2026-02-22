@@ -37,7 +37,7 @@ export const ARCHITECTURE_BLOCKS: ArchitectureBlock[] = [
   {
     id: 'ml-classifier',
     title: 'ML Anomaly Detector',
-    description: 'Neural network for threat detection.',
+    description: 'Threshold Classifier for threat detection.',
     details: [
       '16 → 8 → 6 MLP architecture',
       '80ns On-Chip INT8 Inference',
